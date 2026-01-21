@@ -147,4 +147,4 @@ void SimpleString_Destruct(SimpleString to_destroy);
 // cout << h << endl;
 std::ostream& operator<<(std::ostream& os, const SimpleString to_print);
 
-#endif //SIMPLEStTRING_HPP_
+#endif //SIMPLESTTRING_HPP_
