@@ -37,7 +37,7 @@ int main(int argc, char* argv[]) {
     std::cout << "_";
   }
   std::cout << std::endl;
-  std::cout << "<" << total_msg << ">" << std::endl;
+  std::cout << "< " << total_msg << " >" << std::endl;
   std::cout << " ";
   for (size_t i = 0; i < total_msg.len + 2; i++) {
     std::cout << "-";
