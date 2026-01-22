@@ -1,8 +1,8 @@
 // TODO: add header guards
 // look at what is done in lecture and do something similar.
 // Just remeber that this file is called SimpleString.hpp
-#ifndef SIMPLESTRING_HPP_
-#define SIMPLESTRING_HPP_
+#ifndef SIMPLE_STRING_HPP_
+#define SIMPLE_STRING_HPP_
 #include <cstddef>  // for size_t
 #include <ostream>  // for ostream
 
@@ -147,4 +147,4 @@ void SimpleString_Destruct(SimpleString to_destroy);
 // cout << h << endl;
 std::ostream& operator<<(std::ostream& os, const SimpleString to_print);
 
-#endif  // SIMPLESTRING_HPP_
+#endif  // SIMPLE_STRING_HPP_
